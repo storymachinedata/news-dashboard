@@ -6,6 +6,10 @@ from dash import html
 from dash.dependencies import Input, Output, State
 from pull_news2 import get_news
 from dash.exceptions import PreventUpdate
+import os
+
+#external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+server = app.server
 
 
 app = dash.Dash()
@@ -50,4 +54,4 @@ def get_news_callback(v, q):
 #app.run_server(debug=True)
 
 if __name__ == "__main__":
-    app.run_server(host="127.0.0.1", port=8080, debug=True)
+    app.run_server(debug=True)
