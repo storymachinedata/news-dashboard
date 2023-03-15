@@ -55,7 +55,6 @@ if btn:
     r=r.json()# here we have everything all the components of news
     articles = r['articles']
 
-    print(articles[0])
 
     for article in articles:
         st.header(article['title'])
