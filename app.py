@@ -11,6 +11,24 @@ myKey= 'ebaa63cf9dfa430d8f20bb9f7726ed03'
 st.set_page_config(layout="centered")
 
 
+st.markdown(
+        f"""
+<style>
+    .reportview-container .main .block-container{{
+        max-width: {400}px;
+        
+    }}
+ 
+</style>
+""",
+        unsafe_allow_html=True,
+    )
+
+
+
+
+
+
 st.image("https://www.storymachine.de/assets2/img/storymachine.png", width=200)
 st.title('News Dashboard')
 # now for dividing whole screen into two parts we can use st.columns
