@@ -31,7 +31,7 @@ st.markdown(
 
 
 st.image("https://www.storymachine.de/assets2/img/storymachine.png", width=200)
-st.title('News App')
+st.title('News Dashboard')
 # now for dividing whole screen into two parts we can use st.columns
 col1,col2=st.columns([2,1]) # 75,25
 
@@ -62,7 +62,7 @@ if btn:
             st.write('Author:',article['author'])
         #st.write('Source:',article['source']['name'])
         st.write('Url:',article['url'],unsafe_allow_html=True)
-        st.write('Published At:',article['publishedAt'])
+        #st.write('Published At:',article['publishedAt'])
 
 
         try:
