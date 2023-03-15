@@ -1,10 +1,8 @@
-# here we download pycountry pacakge to convert the country codes in two alphabet form which are
-# basically the country code
+
 
 import streamlit as st
 import requests as re
 import pycountry as py
-# from api import apiKEY
 
 myKey= 'ebaa63cf9dfa430d8f20bb9f7726ed03'
 
