@@ -7,7 +7,7 @@ import pycountry as py
 # from api import apiKEY
 
 myKey= 'ebaa63cf9dfa430d8f20bb9f7726ed03'
-st.title('News App')
+st.title('News Dashboard')
 # now for dividing whole screen into two parts we can use st.columns
 col1,col2=st.columns([2,1]) # 75,25
 
