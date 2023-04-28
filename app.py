@@ -9,7 +9,8 @@ import pycountry as py
 
 myKey= 'ebaa63cf9dfa430d8f20bb9f7726ed03'
 
-st.set_page_config(layout="centered")
+#st.set_page_config(layout="centered")
+st.set_page_config(layout="wide")
 
 
 st.markdown(
